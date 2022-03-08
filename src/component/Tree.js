@@ -2,6 +2,7 @@ import React from "react";
 import "./Tree.css";
 import { Line } from "react-chartjs-2";
 import { HiOutlineFilter } from "react-icons/hi";
+import { IoMdArrowDropdown } from "react-icons/io";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -107,7 +108,9 @@ function Tree() {
             <div className="history">History</div>
 
             <div className="active-checkins">
-              <HiOutlineFilter className="filter" />
+              <div className="filter">
+                <HiOutlineFilter /> <IoMdArrowDropdown />
+              </div>
               <div className="active-label">Active Check-in</div>
             </div>
             <div className="no-checkins"> No check-ins made yet.</div>

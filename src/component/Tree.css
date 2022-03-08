@@ -24,14 +24,13 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  
 }
 
 .left-container
 {
     width: 50%;
     padding:20px;
-    border: 5px solid rgb(231, 243, 245);
+    border: 5px solid whitesmoke;
     border-radius: 15px;
   }
   .left-container span{
@@ -44,20 +43,13 @@
   justify-content: space-between;
   align-items: flex-start;
   margin:20px;
-  /* height:50%;
-  width:50%; */
-  /* grid-template-columns: 50% auto; */
-  
 }
 .right-container
 {
   width: 43%;
   padding: 10px;
-  border: 5px solid gray;
+  border: 5px solid whitesmoke;
   border-radius: 10px;
-  /* margin-top: 100px; */
-  /* margin-left: 80px; */
-  
 }
 .btn{
 display: flex;
@@ -73,32 +65,32 @@ justify-content: flex-end;
   width: 93%;
   padding: 10px;
   border: none;
-  margin: 10px;
+  margin:10px;
   background-color: rgb(226, 222, 222);
-  display: flex;
-  flex-wrap: wrap;
- 
 }
 .active-checkins .filter
 {
  width: max-content;
  border:1px solid white;
- padding:10px;
+ padding:6px;
  border-radius: 20px;
  background-color: white;
- 
+ float: left;
+ cursor: pointer;
+ border:2px solid grey;
 }
 .active-checkins .active-label
 {
  width: max-content;
  border:1px solid white;
- padding:10px;
+ padding:6px;
  border-radius: 30px;
  background-color: white;
-
+margin-left:70px;
 }
 .no-checkins
 {
   font-weight: bold;
   margin:20px;
+  font-style: italic;
 }
