@@ -1,0 +1,67 @@
+.dashboardBtn{
+    background-color: blue;
+    padding: 0.5rem 1.3rem;
+    border-radius: 10px;
+    border-radius: 10px;
+    color:white;
+    font-weight:bold;
+    float:center;
+    margin-top:30px;
+    margin-right:20px;
+    position: fixed;
+}
+.sideBar {
+  
+    background-color: rgb(240, 236, 236);
+    top: 50px;
+    bottom:0;
+    width: 35%;
+    animation: moveLeft 0.3s ease-in-out forwards;
+    overflow-y: scroll; 
+    float: right;
+    position: fixed;
+    
+  }
+  .sideBar-Header{
+   
+    display: flex ;
+    justify-content: space-between;
+    height:30px;
+    width: 100%;
+  background-color: lightgray;
+    position:absolute ;
+    /* padding: 10px; */
+}
+@keyframes moveLeft {
+  from {
+    right: -40%;
+  }
+  to {
+    right: 0;
+  }
+}
+.sideBar-Header p{
+   margin: 0;
+  font-size: 1.1rem !important;
+  margin-left:25px;
+}
+.sideBar-Header p span{
+  color:navy;
+  font-weight: bold;
+}
+.sideBar-Header .closeModel
+{
+  position: absolute;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #242387;
+}
+.sideBar-Header .closeModel:hover
+{
+  color:blue;
+}
+.sideBar-type
+{
+  display: flex;
+}
