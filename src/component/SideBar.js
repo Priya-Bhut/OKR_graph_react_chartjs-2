@@ -22,6 +22,8 @@ function SideBar() {
           <SideBarToggle setIsOpen={setIsOpen} toggleSideBar={toggleSideBar} />
         )}
       </div>
+
+      
     </div>
   );
 }

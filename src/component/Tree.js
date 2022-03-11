@@ -25,28 +25,7 @@ ChartJS.register(
   TimeScale,
   Legend
 );
-function calculateDate(startDate, endDate) {
-  // const d1 = new Date(startDate);
-  let result = startDate.getTime();
-  const r2 = endDate.getTime();
-  let getMIL = r2 - result;
-  const interval = getMIL / 8;
 
-  console.log(
-    "start",
-    Math.ceil((result += interval / (3600000 * 24))) - 19054
-  );
-
-  console.log(
-    "start",
-    Math.ceil((result += interval / (3600000 * 24))) - 19054
-  );
-  console.log(
-    "start",
-    Math.ceil((result += interval / (3600000 * 24))) - 19054
-  );
-}
-calculateDate(new Date("03-mar-22"), new Date("17-mar-22"));
 function Tree() {
   const data = {
     labels: [
